@@ -1,0 +1,9 @@
+pipelien{
+
+agent any
+ stages("build"){
+   steps { 
+   echo 'building the application'
+}
+ }
+}
